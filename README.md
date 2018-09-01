@@ -93,7 +93,7 @@ $ yarn add time-series-data-generator
   const Series = require('time-series-data-generator');
 
   const series = new Series();
-  console.log(sereis.gaussian());
+  console.log(series.gaussian());
   // => [{timestamp: '2017-05-31T02:25:38.000Z', value: 10.15}, {timestamp: '2017-05-31T02:30:38.000Z', value: 9.68}, ...]
 
   const mean          = 5;
